@@ -1,0 +1,19 @@
+{
+    "name": "@repo/color-components",
+    "version": "0.0.0",
+    "private": true,
+    "exports": {
+        ".": "./src/index.ts"
+    },
+    "scripts": {
+        "check-types": "vue-tsc --noEmit"
+    },
+    "devDependencies": {
+        "@repo/eslint-config": "*",
+        "@repo/typescript-config": "*",
+        "vue-tsc": "^2.2.8"
+    },
+    "dependencies": {
+        "vue": "^3.5.13"
+    }
+}
